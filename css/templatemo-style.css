@@ -43,6 +43,19 @@ section {
   letter-spacing: 0.5px;
 }
 
+.section-privacy-heading {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.section-privacy-heading span {
+  font-size: 30px;
+  font-weight: 700;
+  display: block;
+  margin: 0px;
+  color: #4883ff;
+}
+
 
 .blue-button a {
   display: inline-block;
@@ -331,6 +344,24 @@ section.banner {
 
 .banner .banner-caption {
   padding: 400px 0px;
+}
+
+
+section.privacy-policy {
+  padding: 0px;
+}
+
+.privacy-policy {
+  background-image: url(../img/privacy_policy_banner.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.privacy-policy .banner-privacy {
+  padding: 200px 0px;
 }
 
 .fallback-color {
@@ -1219,6 +1250,36 @@ footer .contact-info ul li a {
   align-items: center;
   height: 100vh; /* Adjust this if needed */
 }
+
+.privacy-description p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.privacy-description li {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.privacy-description ul {
+  list-style: dot; 
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #7a7a7a;  
+}
+
+.privacy-description h1 {
+  padding: 0px;
+  margin: 0px;
+}
+
 
 
 
